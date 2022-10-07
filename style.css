@@ -1,0 +1,129 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(30, 38%, 92%);
+    font-family: 'Montserrat', sans-serif;
+    
+
+}
+
+main{
+    display: grid;
+    grid-template-areas: 'img content';
+    align-items: center;
+    grid-template-columns: 50% 50%;
+    max-width: 640px;
+}
+.price{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-bottom: 1rem;
+    font-family: 'Fraunces', sans-serif;
+}
+
+
+
+.aside img{
+    max-width: 100%;
+    grid-area: img;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+   
+    height: 500px;
+    
+    
+
+    
+}
+h1{
+    font-family: 'Fraunces', sans-serif;
+    color: hsl(212, 21%, 14%);
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    
+
+}
+h2,p{
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    
+
+}
+
+
+li:first-child{
+    color: hsl(158, 36%, 37%);
+    font-size: 2.3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+li:last-child{
+    color: hsl(228, 12%, 48%);
+    font-size: 1rem;
+    margin-left: 10%;
+    text-decoration: line-through;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+
+}
+.btn{
+    font-family: 'Montserrat', sans-serif;
+
+    color: white;
+    background-color: hsl(158, 36%, 37%);
+    height: 3.2rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.btn:hover{
+
+    background-color: hsl(158, 36%, 20%);
+
+    transition: 0.3s;
+
+
+
+
+}
+.content{
+    grid-area: content;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    margin-top: -0.2rem;
+    padding: 1.5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    height: 500px;
+    
+
+}
+
+h2{
+    text-transform: uppercase;
+    letter-spacing: 0.35rem;
+}
+
+
+footer{
+    margin-top: 50px;
+}
